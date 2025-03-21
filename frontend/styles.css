@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#stats-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    color: #fff;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#stats-container div {
+    margin: 5px 0;
+}

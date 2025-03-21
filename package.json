@@ -1,0 +1,14 @@
+{
+  "name": "3d-viewer-web",
+  "version": "1.0.0",
+  "description": "Real-time point cloud viewer using Three.js and WebSocket",
+  "scripts": {
+    "start": "serve frontend"
+  },
+  "dependencies": {
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
